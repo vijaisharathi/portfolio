@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="100%">
+  <rect width="1000" height="560" rx="12" fill="#080a13" stroke="#1d243a" stroke-width="1.5"/>
+  
+  <text x="40" y="50" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="20" font-weight="800">Queryholic 13 Full-Spectrum Engineering Services</text>
+  <text x="40" y="74" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Founder-led delivery matrix across digital software, autonomous AI, and connected hardware</text>
+
+  <!-- 3 Big Columns -->
+  <!-- Col 1: Software & Web -->
+  <g transform="translate(40, 110)">
+    <rect width="285" height="410" rx="10" fill="#0e1322" stroke="#a855f7" stroke-width="1.5"/>
+    <rect width="285" height="42" rx="10" fill="#151b2e"/>
+    <text x="142" y="26" fill="#c084fc" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">DIGITAL PLATFORMS</text>
+    <g transform="translate(20, 65)">
+      <text x="0" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">1. Website Development</text>
+      <text x="0" y="40" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">High-converting editorial brand websites</text>
+
+      <text x="0" y="75" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">2. Landing Page Development</text>
+      <text x="0" y="95" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Fast load speed, modern typography</text>
+
+      <text x="0" y="130" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">3. Web App Development</text>
+      <text x="0" y="150" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Complex SaaS portals with Next.js</text>
+
+      <text x="0" y="185" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">4. Mobile App Development</text>
+      <text x="0" y="205" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Cross-platform React Native apps</text>
+
+      <text x="0" y="240" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">5. UI/UX Design &amp; Systems</text>
+      <text x="0" y="260" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Figma tokens &amp; accessible interfaces</text>
+    </g>
+  </g>
+
+  <!-- Col 2: AI & Automation -->
+  <g transform="translate(355, 110)">
+    <rect width="285" height="410" rx="10" fill="#0e1322" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect width="285" height="42" rx="10" fill="#151b2e"/>
+    <text x="142" y="26" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">AI &amp; AUTOMATION</text>
+    <g transform="translate(20, 65)">
+      <text x="0" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">6. AI Integration</text>
+      <text x="0" y="40" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">LLMs &amp; semantic search pipelines</text>
+
+      <text x="0" y="75" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">7. AI Automation</text>
+      <text x="0" y="95" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Autonomous multi-agent workflows</text>
+
+      <text x="0" y="130" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">8. Custom Software Solutions</text>
+      <text x="0" y="150" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">End-to-end bespoke business engines</text>
+
+      <text x="0" y="185" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">9. Prompt Engineering</text>
+      <text x="0" y="205" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Deterministic LLM output pipelines</text>
+    </g>
+  </g>
+
+  <!-- Col 3: Hardware & IoT -->
+  <g transform="translate(670, 110)">
+    <rect width="290" height="410" rx="10" fill="#0e1322" stroke="#10b981" stroke-width="1.5"/>
+    <rect width="290" height="42" rx="10" fill="#151b2e"/>
+    <text x="145" y="26" fill="#34d399" font-family="system-ui, sans-serif" font-size="13" font-weight="700" text-anchor="middle">HARDWARE &amp; IOT</text>
+    <g transform="translate(20, 65)">
+      <text x="0" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">10. Embedded Systems</text>
+      <text x="0" y="40" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">ESP32, STM32, Arduino C/C++ firmware</text>
+
+      <text x="0" y="75" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">11. IoT Solutions</text>
+      <text x="0" y="95" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Sensor-to-cloud MQTT &amp; telemetry</text>
+
+      <text x="0" y="130" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">12. Smart Energy &amp; Solar</text>
+      <text x="0" y="150" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Inverter telemetry &amp; fault detection</text>
+
+      <text x="0" y="185" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">13. EV Solutions</text>
+      <text x="0" y="205" fill="#64748b" font-family="system-ui, sans-serif" font-size="11">Charging station telemetry &amp; billing logic</text>
+    </g>
+  </g>
+</svg>

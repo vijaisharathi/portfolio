@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="v-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090f"/>
+      <stop offset="50%" stop-color="#05070c"/>
+      <stop offset="100%" stop-color="#0c0e1a"/>
+    </linearGradient>
+    <linearGradient id="v-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="v-shadow">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#v-bg)"/>
+  
+  <!-- Glowing spheres -->
+  <circle cx="300" cy="200" r="280" fill="#38bdf8" opacity="0.07" filter="blur(60px)"/>
+  <circle cx="950" cy="450" r="320" fill="#818cf8" opacity="0.08" filter="blur(70px)"/>
+
+  <!-- Console Window -->
+  <g filter="url(#v-shadow)" transform="translate(100, 60)">
+    <rect width="1000" height="555" rx="16" fill="#0b0e17" stroke="#1f2638" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect width="1000" height="48" rx="16" fill="#0f1422"/>
+    <rect y="36" width="1000" height="12" fill="#0f1422"/>
+    <line x1="0" y1="48" x2="1000" y2="48" stroke="#1c2335" stroke-width="1"/>
+    
+    <circle cx="28" cy="24" r="6" fill="#ef4444" opacity="0.8"/>
+    <circle cx="48" cy="24" r="6" fill="#f59e0b" opacity="0.8"/>
+    <circle cx="68" cy="24" r="6" fill="#10b981" opacity="0.8"/>
+
+    <text x="500" y="29" fill="#94a3b8" font-family="monospace" font-size="12" text-anchor="middle">veronica-agent-runtime :: daemon-v2.4 [active-duplex]</text>
+    
+    <rect x="860" y="14" width="116" height="20" rx="10" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4"/>
+    <circle cx="875" cy="24" r="4" fill="#22c55e"/>
+    <text x="920" y="28" fill="#4ade80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">WS CONNECTED</text>
+
+    <!-- Content Body Split: Left Waveform, Right Tool Graph -->
+    <!-- Left: Audio Spectrum & Conversation -->
+    <g transform="translate(40, 75)">
+      <rect width="450" height="440" rx="12" fill="#0e1320" stroke="#1b2336" stroke-width="1"/>
+      <text x="24" y="36" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Voice Synthesis &amp; Audio Stream</text>
+      <text x="24" y="56" fill="#64748b" font-family="monospace" font-size="11">Latency: 380ms | Sample Rate: 24kHz PCM</text>
+
+      <!-- Audio Visualizer Waves -->
+      <g transform="translate(24, 80)">
+        <rect width="402" height="110" rx="8" fill="#090d16" stroke="#192033" stroke-width="1"/>
+        <!-- Dynamic spectrum bars -->
+        <rect x="25" y="45" width="4" height="20" rx="2" fill="#38bdf8"/>
+        <rect x="37" y="35" width="4" height="40" rx="2" fill="#38bdf8"/>
+        <rect x="49" y="25" width="4" height="60" rx="2" fill="#818cf8"/>
+        <rect x="61" y="15" width="4" height="80" rx="2" fill="#c084fc"/>
+        <rect x="73" y="30" width="4" height="50" rx="2" fill="#818cf8"/>
+        <rect x="85" y="40" width="4" height="30" rx="2" fill="#38bdf8"/>
+        <rect x="97" y="20" width="4" height="70" rx="2" fill="#a855f7"/>
+        <rect x="109" y="10" width="4" height="90" rx="2" fill="#38bdf8"/>
+        <rect x="121" y="25" width="4" height="60" rx="2" fill="#818cf8"/>
+        <rect x="133" y="45" width="4" height="20" rx="2" fill="#38bdf8"/>
+        <rect x="145" y="15" width="4" height="80" rx="2" fill="#c084fc"/>
+        <rect x="157" y="35" width="4" height="40" rx="2" fill="#38bdf8"/>
+        <rect x="169" y="50" width="4" height="10" rx="2" fill="#38bdf8"/>
+        <rect x="181" y="30" width="4" height="50" rx="2" fill="#818cf8"/>
+        <rect x="193" y="10" width="4" height="90" rx="2" fill="#38bdf8"/>
+        <rect x="205" y="25" width="4" height="60" rx="2" fill="#c084fc"/>
+        <rect x="217" y="40" width="4" height="30" rx="2" fill="#818cf8"/>
+        <rect x="229" y="15" width="4" height="80" rx="2" fill="#38bdf8"/>
+        <rect x="241" y="35" width="4" height="40" rx="2" fill="#a855f7"/>
+        <rect x="253" y="20" width="4" height="70" rx="2" fill="#38bdf8"/>
+        <rect x="265" y="45" width="4" height="20" rx="2" fill="#818cf8"/>
+        <rect x="277" y="10" width="4" height="90" rx="2" fill="#c084fc"/>
+        <rect x="289" y="30" width="4" height="50" rx="2" fill="#38bdf8"/>
+        <rect x="301" y="25" width="4" height="60" rx="2" fill="#818cf8"/>
+        <rect x="313" y="40" width="4" height="30" rx="2" fill="#38bdf8"/>
+        <rect x="325" y="15" width="4" height="80" rx="2" fill="#c084fc"/>
+        <rect x="337" y="35" width="4" height="40" rx="2" fill="#818cf8"/>
+        <rect x="349" y="25" width="4" height="60" rx="2" fill="#38bdf8"/>
+        <rect x="361" y="45" width="4" height="20" rx="2" fill="#38bdf8"/>
+        <rect x="373" y="50" width="4" height="10" rx="2" fill="#818cf8"/>
+      </g>
+
+      <!-- Chat Bubble Log -->
+      <g transform="translate(24, 210)">
+        <!-- User Voice Input -->
+        <rect width="402" height="56" rx="8" fill="#131929" stroke="#232d44" stroke-width="1"/>
+        <text x="16" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">USER (VOICE INGEST)</text>
+        <text x="16" y="42" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="12">"Compile the latest build, notify team on Slack, and dim studio lights."</text>
+      </g>
+
+      <!-- Assistant Response -->
+      <g transform="translate(24, 280)">
+        <rect width="402" height="135" rx="8" fill="#131628" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="16" y="24" fill="#c084fc" font-family="system-ui, sans-serif" font-size="10" font-weight="700">VERONICA CORE (AGENT PLANNER)</text>
+        <text x="16" y="46" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="12">"Deconstructed intent into 3 sequential actions:</text>
+        <text x="16" y="68" fill="#94a3b8" font-family="monospace" font-size="11">1. [EXEC] git pull &amp;&amp; npm run build (PID 4810)</text>
+        <text x="16" y="88" fill="#94a3b8" font-family="monospace" font-size="11">2. [API] Dispatch webhook to Slack #dev-ops</text>
+        <text x="16" y="108" fill="#94a3b8" font-family="monospace" font-size="11">3. [MQTT] ESP32 Relay 0x03 -> Duty Cycle 30%"</text>
+        <circle cx="380" cy="120" r="4" fill="#38bdf8"/>
+      </g>
+    </g>
+
+    <!-- Right: Tool Execution DAG & IoT Status -->
+    <g transform="translate(510, 75)">
+      <rect width="450" height="440" rx="12" fill="#0e1320" stroke="#1b2336" stroke-width="1"/>
+      <text x="24" y="36" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Agentic Tool DAG &amp; Telemetry Bridge</text>
+      <text x="24" y="56" fill="#64748b" font-family="monospace" font-size="11">Active Workers: 3 | MQTT Broker: Active</text>
+
+      <!-- DAG Diagram Nodes -->
+      <g transform="translate(24, 75)">
+        <!-- Node 1: Voice Ingestion -->
+        <rect x="140" y="0" width="130" height="44" rx="8" fill="#182033" stroke="#38bdf8" stroke-width="1.5"/>
+        <text x="205" y="26" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="600" text-anchor="middle">STT Whisper V3</text>
+
+        <!-- Connecting lines -->
+        <line x1="205" y1="44" x2="205" y2="70" stroke="#475569" stroke-width="1.5"/>
+        
+        <!-- Node 2: LLM Tool Reasoner -->
+        <rect x="120" y="70" width="170" height="48" rx="8" fill="#1e183a" stroke="#a855f7" stroke-width="1.5"/>
+        <text x="205" y="94" fill="#e9d5ff" font-family="monospace" font-size="11" font-weight="700" text-anchor="middle">LLM Planner Engine</text>
+        <text x="205" y="108" fill="#a855f7" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">JSON Tool Schemas</text>
+
+        <!-- Split Lines to 3 Tools -->
+        <line x1="205" y1="118" x2="205" y2="135" stroke="#475569" stroke-width="1.5"/>
+        <line x1="60" y1="135" x2="350" y2="135" stroke="#475569" stroke-width="1.5"/>
+        
+        <line x1="60" y1="135" x2="60" y2="155" stroke="#475569" stroke-width="1.5"/>
+        <line x1="205" y1="135" x2="205" y2="155" stroke="#475569" stroke-width="1.5"/>
+        <line x1="350" y1="135" x2="350" y2="155" stroke="#475569" stroke-width="1.5"/>
+
+        <!-- Tool 1: OS Automation -->
+        <rect x="0" y="155" width="120" height="60" rx="8" fill="#13192a" stroke="#25324d" stroke-width="1"/>
+        <text x="60" y="178" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">OS CLI Executor</text>
+        <text x="60" y="196" fill="#22c55e" font-family="monospace" font-size="9" text-anchor="middle">[PASS 200 OK]</text>
+
+        <!-- Tool 2: Webhook Notifier -->
+        <rect x="145" y="155" width="120" height="60" rx="8" fill="#13192a" stroke="#25324d" stroke-width="1"/>
+        <text x="205" y="178" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">Slack Dispatch</text>
+        <text x="205" y="196" fill="#22c55e" font-family="monospace" font-size="9" text-anchor="middle">[SENT 12:44]</text>
+
+        <!-- Tool 3: ESP32 IoT Bridge -->
+        <rect x="290" y="155" width="120" height="60" rx="8" fill="#13192a" stroke="#25324d" stroke-width="1"/>
+        <text x="350" y="178" fill="#ec4899" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="middle">ESP32 Hardware</text>
+        <text x="350" y="196" fill="#22c55e" font-family="monospace" font-size="9" text-anchor="middle">[PWM APPLIED]</text>
+      </g>
+
+      <!-- Hardware Telemetry Card -->
+      <g transform="translate(24, 320)">
+        <rect width="402" height="95" rx="8" fill="#0d111d" stroke="#1d263b" stroke-width="1"/>
+        <text x="16" y="24" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Hardware Telemetry Stream (ESP32-S3)</text>
+        
+        <g transform="translate(16, 40)">
+          <!-- Stat 1 -->
+          <rect width="115" height="42" rx="6" fill="#141a2b"/>
+          <text x="12" y="18" fill="#64748b" font-family="system-ui, sans-serif" font-size="9">Ambient Temp</text>
+          <text x="12" y="34" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">24.2 °C</text>
+
+          <!-- Stat 2 -->
+          <rect x="125" y="0" width="115" height="42" rx="6" fill="#141a2b"/>
+          <text x="137" y="18" fill="#64748b" font-family="system-ui, sans-serif" font-size="9">Studio Relays</text>
+          <text x="137" y="34" fill="#a855f7" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Ch 1-4 Active</text>
+
+          <!-- Stat 3 -->
+          <rect x="250" y="0" width="115" height="42" rx="6" fill="#141a2b"/>
+          <text x="262" y="18" fill="#64748b" font-family="system-ui, sans-serif" font-size="9">Ping Latency</text>
+          <text x="262" y="34" fill="#22c55e" font-family="system-ui, sans-serif" font-size="13" font-weight="700">12 ms</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

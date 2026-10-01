@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="100%">
+  <rect width="1000" height="560" rx="12" fill="#080c16" stroke="#1b253b" stroke-width="1.5"/>
+  <rect width="1000" height="42" rx="12" fill="#0e1424"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="42" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="500" y="26" fill="#64748b" font-family="monospace" font-size="11" text-anchor="middle">zoolearn.app/quiz/neet-drill/ch-18</text>
+
+  <g transform="translate(32, 65)">
+    <text x="0" y="24" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="700">NEET Interactive Diagnostic Examination Module</text>
+    <text x="0" y="46" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Timed multiple-choice testing with instant 3D model cross-referencing and negative mark telemetry</text>
+  </g>
+
+  <!-- Quiz Box -->
+  <g transform="translate(32, 130)">
+    <rect width="936" height="395" rx="10" fill="#0c1220" stroke="#1d283f" stroke-width="1"/>
+    
+    <!-- Top timer bar -->
+    <g transform="translate(24, 24)">
+      <text x="0" y="16" fill="#f59e0b" font-family="monospace" font-size="13" font-weight="700">⏱️ Time Remaining: 00:44</text>
+      <text x="888" y="16" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12" text-anchor="end">Question 14 of 45</text>
+    </g>
+
+    <!-- Question -->
+    <g transform="translate(24, 60)">
+      <rect width="888" height="75" rx="8" fill="#11182c" stroke="#222e49" stroke-width="1"/>
+      <text x="20" y="32" fill="#f1f5f9" font-family="system-ui, sans-serif" font-size="14" font-weight="600">The wall of the human left ventricle is significantly thicker than the right ventricle because:</text>
+      <text x="20" y="54" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Select the most accurate physiological rationale according to NCERT NEET guidelines.</text>
+    </g>
+
+    <!-- Options List -->
+    <g transform="translate(24, 155)">
+      <!-- Opt 1 -->
+      <rect width="888" height="44" rx="6" fill="#131a2e" stroke="#222c44" stroke-width="1"/>
+      <text x="20" y="27" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">A. It expels a larger volume of blood per stroke than the right ventricle.</text>
+
+      <!-- Opt 2 (Correct) -->
+      <g transform="translate(0, 56)">
+        <rect width="888" height="44" rx="6" fill="#142b26" stroke="#10b981" stroke-width="1.5"/>
+        <text x="20" y="27" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="700">B. It must generate high pressure to pump blood throughout the systemic circulation.</text>
+        <text x="860" y="27" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" text-anchor="end">✓ Correct</text>
+      </g>
+
+      <!-- Opt 3 -->
+      <g transform="translate(0, 112)">
+        <rect width="888" height="44" rx="6" fill="#131a2e" stroke="#222c44" stroke-width="1"/>
+        <text x="20" y="27" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">C. It receives blood directly from the pulmonary veins without valves.</text>
+      </g>
+    </g>
+
+    <!-- Bottom Explanation Card -->
+    <g transform="translate(24, 335)">
+      <rect width="888" height="40" rx="6" fill="#161e33"/>
+      <text x="16" y="25" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Conceptual Note: Both ventricles pump equal volume (~70 mL stroke volume), but left ventricle operates at ~120 mm Hg vs 25 mm Hg for right ventricle.</text>
+    </g>
+  </g>
+</svg>

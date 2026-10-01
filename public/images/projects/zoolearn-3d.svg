@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="100%">
+  <rect width="1000" height="560" rx="12" fill="#080c16" stroke="#1b253b" stroke-width="1.5"/>
+  <rect width="1000" height="42" rx="12" fill="#0e1424"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="42" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="500" y="26" fill="#64748b" font-family="monospace" font-size="11" text-anchor="middle">zoolearn.app/viewer/human-heart-3d</text>
+
+  <g transform="translate(32, 65)">
+    <text x="0" y="24" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="700">ZooLearn 3D Spatial Anatomy Viewer</text>
+    <text x="0" y="46" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Interactive multi-layer biological dissection with Draco-compressed WebGL geometry</text>
+  </g>
+
+  <!-- Big Viewport -->
+  <g transform="translate(32, 130)">
+    <rect width="936" height="395" rx="10" fill="#0b101d" stroke="#1d283e" stroke-width="1"/>
+    
+    <!-- Coordinate Grid & Model Placeholder -->
+    <g transform="translate(468, 200)">
+      <ellipse cx="0" cy="100" rx="280" ry="60" fill="none" stroke="#1b253a" stroke-width="1.5"/>
+      <ellipse cx="0" cy="100" rx="180" ry="40" fill="none" stroke="#25334f" stroke-width="1" stroke-dasharray="6 6"/>
+
+      <!-- Heart Chamber 3D representation -->
+      <path d="M-90,-70 C-150,-20 -150,70 -30,120 C-10,128 10,128 30,120 C150,70 150,-20 90,-70 C40,-110 -40,-110 -90,-70 Z" fill="#19152b" stroke="#a855f7" stroke-width="3"/>
+      <path d="M-50,-50 C-100,-10 -90,40 -20,85 C0,90 10,90 20,85 C90,40 100,-10 50,-50 Z" fill="#2d163f" stroke="#ec4899" stroke-width="2"/>
+      
+      <!-- Aorta and Pulmonary arteries -->
+      <path d="M-30,-75 L-30,-130 L5,-130 L5,-75" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round"/>
+      <path d="M15,-65 L55,-110 L85,-95 L45,-50" fill="none" stroke="#06b6d4" stroke-width="10" stroke-linecap="round"/>
+
+      <!-- Hotspots -->
+      <circle cx="-60" cy="10" r="8" fill="#38bdf8"/>
+      <circle cx="-60" cy="10" r="16" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3"/>
+      
+      <circle cx="60" cy="30" r="8" fill="#a855f7"/>
+      <circle cx="60" cy="30" r="16" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="3 3"/>
+    </g>
+
+    <!-- Side Inspection Card -->
+    <g transform="translate(680, 24)">
+      <rect width="230" height="200" rx="8" fill="#131929" stroke="#222c42" stroke-width="1"/>
+      <text x="16" y="28" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="700">SELECTED STRUCTURE</text>
+      <text x="16" y="52" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Left Ventricle</text>
+      <text x="16" y="74" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Thickest muscular chamber responsible for pumping oxygenated blood into the systemic aorta under high pressure.</text>
+
+      <rect x="16" y="145" width="198" height="32" rx="6" fill="#a855f7"/>
+      <text x="115" y="166" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Practice Related MCQs →</text>
+    </g>
+  </g>
+</svg>

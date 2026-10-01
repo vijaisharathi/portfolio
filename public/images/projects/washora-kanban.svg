@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="100%">
+  <rect width="1000" height="560" rx="12" fill="#0c0f18" stroke="#1d2538" stroke-width="1.5"/>
+  <rect width="1000" height="42" rx="12" fill="#101422"/>
+  <line x1="0" y1="42" x2="1000" y2="42" stroke="#1b2336"/>
+  <circle cx="24" cy="21" r="5" fill="#ef4444" opacity="0.8"/>
+  <circle cx="42" cy="21" r="5" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="60" cy="21" r="5" fill="#10b981" opacity="0.8"/>
+  <text x="500" y="26" fill="#64748b" font-family="monospace" font-size="11" text-anchor="middle">https://washora.platform/provider/terminal/kanban</text>
+
+  <!-- Provider Terminal Header -->
+  <text x="32" y="80" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="700">Workshop Terminal • Active Service Queue</text>
+  <text x="32" y="102" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Strict partner surface: Real-time triage, stage progression, photo intake logs</text>
+
+  <!-- 3 Kanban Columns -->
+  <!-- Col 1: Intake & Inspection -->
+  <g transform="translate(32, 125)">
+    <rect width="290" height="395" rx="8" fill="#101524" stroke="#1d263b" stroke-width="1"/>
+    <rect width="290" height="36" rx="8" fill="#151b2c"/>
+    <text x="16" y="23" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700">INTAKE &amp; INSPECTION (2)</text>
+    
+    <!-- Item Card 1 -->
+    <g transform="translate(14, 50)">
+      <rect width="262" height="150" rx="8" fill="#131929" stroke="#253047" stroke-width="1"/>
+      <text x="14" y="26" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700">#ORD-9021 • Jordan 1 High</text>
+      <text x="14" y="46" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Sole Scrub + Deep Suede Conditioning</text>
+      <rect x="14" y="62" width="105" height="20" rx="4" fill="#10b981" fill-opacity="0.15"/>
+      <text x="66" y="76" fill="#34d399" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">📷 Photo Logged (3)</text>
+      <rect x="14" y="100" width="234" height="32" rx="6" fill="#a855f7"/>
+      <text x="131" y="120" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Begin Wash Treatment →</text>
+    </g>
+
+    <!-- Item Card 2 -->
+    <g transform="translate(14, 215)">
+      <rect width="262" height="135" rx="8" fill="#131929" stroke="#253047" stroke-width="1"/>
+      <text x="14" y="26" fill="#38bdf8" font-family="monospace" font-size="11" font-weight="700">#ORD-9024 • AGV Helmet</text>
+      <text x="14" y="46" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Visor Buff + Antimicrobial Foam</text>
+      <rect x="14" y="62" width="105" height="20" rx="4" fill="#f59e0b" fill-opacity="0.15"/>
+      <text x="66" y="76" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">⚠️ Scratches Noted</text>
+    </g>
+  </g>
+
+  <!-- Col 2: In-Wash & Drying -->
+  <g transform="translate(352, 125)">
+    <rect width="290" height="395" rx="8" fill="#101524" stroke="#1d263b" stroke-width="1"/>
+    <rect width="290" height="36" rx="8" fill="#151b2c"/>
+    <text x="16" y="23" fill="#a855f7" font-family="system-ui, sans-serif" font-size="12" font-weight="700">IN TREATMENT (3)</text>
+
+    <!-- Item Card -->
+    <g transform="translate(14, 50)">
+      <rect width="262" height="150" rx="8" fill="#141a2c" stroke="#a855f7" stroke-width="1.5"/>
+      <text x="14" y="26" fill="#c084fc" font-family="monospace" font-size="11" font-weight="700">#ORD-8941 • Royal Enfield</text>
+      <text x="14" y="46" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Foam De-grease + Ceramic Coating</text>
+      <rect x="14" y="65" width="234" height="8" rx="4" fill="#1c2438"/>
+      <rect x="14" y="65" width="165" height="8" rx="4" fill="#a855f7"/>
+      <text x="14" y="90" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Drying cycle: 22m remaining</text>
+      <rect x="14" y="102" width="234" height="32" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="131" y="122" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Advance to QA Check</text>
+    </g>
+  </g>
+
+  <!-- Col 3: QA & Ready for Courier Handover -->
+  <g transform="translate(672, 125)">
+    <rect width="290" height="395" rx="8" fill="#101524" stroke="#1d263b" stroke-width="1"/>
+    <rect width="290" height="36" rx="8" fill="#151b2c"/>
+    <text x="16" y="23" fill="#10b981" font-family="system-ui, sans-serif" font-size="12" font-weight="700">QA PASSED / DISPATCH (4)</text>
+
+    <!-- Item Card -->
+    <g transform="translate(14, 50)">
+      <rect width="262" height="150" rx="8" fill="#131929" stroke="#10b981" stroke-width="1"/>
+      <text x="14" y="26" fill="#34d399" font-family="monospace" font-size="11" font-weight="700">#ORD-8812 • Suit Dry Clean</text>
+      <text x="14" y="46" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Double Steam Press &amp; Garment Bag</text>
+      <rect x="14" y="62" width="130" height="20" rx="4" fill="#0284c7" fill-opacity="0.15"/>
+      <text x="79" y="76" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Courier Arriving (5m)</text>
+      <rect x="14" y="100" width="234" height="32" rx="6" fill="#10b981"/>
+      <text x="131" y="120" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Confirm Courier Handover</text>
+    </g>
+  </g>
+</svg>
