@@ -13,6 +13,11 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
   },
+  preview: {
+    host: '0.0.0.0',
+    port: process.env.PORT ? parseInt(process.env.PORT, 10) : 4173,
+    strictPort: false,
+  },
   build: {
     outDir: 'dist',
     sourcemap: false,
