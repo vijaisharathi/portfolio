@@ -197,7 +197,7 @@ import React, { useRef, useState, useEffect } from 'react';
           
           {/* Color Reveal Image - Fully visible on Mobile */}
           <img 
-            src="/src/components/profile_web.png" 
+            src="https://res.cloudinary.com/drqsvwrjt/image/upload/v1791020068/profile_web_kyz7pz.png" 
             alt="Profile Color" 
             className="absolute inset-0 w-full h-full object-contain"
             style={!isMobile ? {
