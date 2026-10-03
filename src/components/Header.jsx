@@ -9,7 +9,7 @@ import React from 'react';
       };
 
       const handleConnectClick = () => {
-        window.location.href = "mailto:hello@example.com";
+        window.location.href = "mailto:vijaisharathi@gmail.com";
       };
 
       return (
