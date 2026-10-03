@@ -190,7 +190,7 @@ import React, { useRef, useState, useEffect } from 'react';
         >
           {/* Base Dark Image - Hidden on Mobile */}
           <img 
-            src="/src/components/profile_web.png" 
+            src="https://res.cloudinary.com/drqsvwrjt/image/upload/v1791020068/profile_web_kyz7pz.png" 
             alt="Profile" 
             className={`w-full h-full object-contain filter grayscale brightness-[0.2] ${isMobile ? 'hidden' : 'block'}`}
           />
